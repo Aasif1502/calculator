@@ -46,14 +46,17 @@ button:hover {
     color: rgb(148, 146, 146);
 }
 .greenBtn {
-    background-color: rgb(2, 100, 67);
-    font-size: 23px;
+     color: rgb(7, 182, 7);
+    font-size: 30px;
 }
 .blueBtn {
     background-color: rgb(4, 48, 136);
 }
  .redBtn {
-    background-color: rgb(158, 53, 4);
+    background-color: rgb(184, 9, 6);
+ }
+ .equalBtn {
+    background-color: rgb(147, 96, 2)
  }
   
     
