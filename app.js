@@ -8,8 +8,13 @@ let arr = Array.from(buttons)
     arr.forEach((button) => {
         button.addEventListener("click", (e)=> {
             if(e.target.innerHTML == "=") {
-                ans = eval(ans)
-                input.value = ans
+                if(ans != "") {
+                    ans = eval(ans)
+                    input.value = ans
+                } else {
+                    input.value = eval(input.value)
+                }
+               
             }else if(e.target.innerHTML == "Del") {
                  ans = ans.substring(0,ans.length-1)
                  input.value = ans
